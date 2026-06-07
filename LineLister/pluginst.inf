@@ -1,0 +1,5 @@
+[PluginInstall]
+Description=LineLister - text files viewer with line numbers
+Type=wlx
+File=LineLister.wlx
+DefaultDir=LineLister

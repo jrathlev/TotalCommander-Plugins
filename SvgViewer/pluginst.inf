@@ -1,0 +1,5 @@
+[PluginInstall]
+Description=SvgLister - SVG file viewer
+Type=wlx
+File=SvgLister.wlx
+DefaultDir=SvgLister
