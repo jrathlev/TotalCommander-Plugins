@@ -568,14 +568,22 @@ begin
     Result:=IsUTF8String(RawByteString(buf));
     if Result then enc:=TEncoding.UTF8
     else if (n>10) then begin
-      k:=0; br:=false;
-      for i:=0 to n-1 do begin
-        Br:=(buf[i]=#0) or (buf[i]=#$FF);
-        if Br then Break
-        else if (buf[i]>#$7F) then inc(k);
+      k:=0;
+      for i:=0 to n-1 do if (buf[i]>=#$80) and (buf[i]<#$A0) then inc(k);
+      if k>0 then begin
+        enc:=TEncoding.GetEncoding(437);
+        Result:=true;
+        end
+      else begin
+        k:=0; br:=false;
+        for i:=0 to n-1 do begin
+          Br:=(buf[i]=#0) or (buf[i]=#$FF);
+          if Br then Break
+          else if (buf[i]>#$7F) then inc(k);
+          end;
+        if br then Result:=false
+        else Result:=k<(n div 10);
         end;
-      if br then Result:=false
-      else Result:=k<(n div 10);
       end;
     end;
   end;
