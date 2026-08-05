@@ -1,7 +1,7 @@
 ## SvgViewer 
 ### Total Commander Lister plugin
 
-**SvgViewer** can be used to display SVG images. 
+**SvgViewer** can be used to display SVG images, without having to install  *Inkscape*.
 
 **Acknowledgements:**  This program uses routines from the following sources
 - **SVGIconImageList** package by [Ethea](https://ethea.it/docs/svgiconimagelist)
@@ -10,6 +10,8 @@
 **License:** All provided program files may be used under the terms of the
 [MIT license](https://opensource.org/license/mit). Software distributed under this License is distributed on an "**AS IS**" basis, **WITHOUT WARRANTY OF ANY KIND**, either express or implied. 
 
+[Download](https://www.rathlev-home.de/tools/download/svgviewer.zip)
 
-[Author's homepage](https://www.rathlev-home.de/index-e.html)
+[Author's homepage](https://www.rathlev-home.de/index-e.html?home-e.html#tcplugins)
+
 

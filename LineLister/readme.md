@@ -12,6 +12,7 @@ This plugin adds a **column of line numbers** to the left margin of the standard
 **License:** All provided program files may be used under the terms of the
 [MIT license](https://opensource.org/license/mit). Software distributed under this License is distributed on an "**AS IS**" basis, **WITHOUT WARRANTY OF ANY KIND**, either express or implied. 
 
+[Download](https://www.rathlev-home.de/tools/download/linelister.zip)
 
-[Author's homepage](https://www.rathlev-home.de/index-e.html)
+[Author's homepage](https://www.rathlev-home.de/index-e.html?home-e.html#tcplugins)
 
